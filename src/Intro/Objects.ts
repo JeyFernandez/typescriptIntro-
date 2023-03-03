@@ -33,8 +33,8 @@ export const avimilex: Human = {
     age: 20
 }
 
-console.log(avimilex)
-console.log(charmander)
-console.log(pokemon);
-console.log(human)
+// console.log(avimilex)
+// console.log(charmander)
+// console.log(pokemon);
+// console.log(human)
 

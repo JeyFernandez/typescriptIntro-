@@ -7,7 +7,7 @@ export const age = 20;
 
 export const isValid: boolean = true;
 
-console.log(age);
+// console.log(age);
 
 export const templateStrings = `
 Hola Mi nombre es: ${name}

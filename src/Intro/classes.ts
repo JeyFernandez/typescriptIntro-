@@ -11,16 +11,17 @@ export class Pokemo {
     }
 
     async getMoves(): Promise<Move[]> {
-        // return 10;
+        
         const {data} = await axios.get<PokeAPIResponse>('https://pokeapi.co/api/v2/pokemon/9');
-        console.log(data.moves[0].move.name);
-        console.log(`Hola Blastoise tu primer movimiento es es ${data.moves[0].move.name}`);        
+
+        
+        console.log(data.moves[0].move.name);        
         return data.moves;
     }
 }
 
 export const blastoise = new Pokemo (4, "Blastoise")
-console.log(blastoise.getMoves());
+// console.log(blastoise.getMoves());
 export class Human {
     constructor( public id:string, public name: string, public age?:number) {}
 }
